@@ -3,10 +3,13 @@ import type { Dictionary } from "./types"
 
 export const pt: Dictionary = {
   meta: {
-    title: "Programadora Freelancer em Nova Friburgo · Izabelle Derrihú",
+    title: "Izabelle Derrihú · Engenharia de Software Aplicada",
     description:
-      "Programadora e engenheira de software freelancer em Nova Friburgo (RJ). Backend, sistemas distribuídos, pagamentos e web — experiência em big techs (Nubank, Stone). Disponível para projetos locais e remotos.",
+      "Engenharia de software aplicada e consultoria — programadora freelancer em Nova Friburgo (RJ). Backend, sistemas distribuídos, pagamentos e web, com experiência em big techs (Nubank, Stone). Projetos locais e remotos.",
     keywords: [
+      "engenharia de software aplicada",
+      "consultoria de software",
+      "consultoria em engenharia de software",
       "programadora freelancer Nova Friburgo",
       "programador freelancer Nova Friburgo",
       "desenvolvedora freelancer Nova Friburgo",
@@ -41,8 +44,8 @@ export const pt: Dictionary = {
   },
   hero: {
     aria: "Introdução",
-    eyebrow: "Programadora freelancer · Nova Friburgo",
-    sub: "Sistemas em escala e soluções para seu negócio — da experiência em big techs como Nubank e Grupo Stone para projetos locais em Nova Friburgo e remotos.",
+    eyebrow: "Engenheira de software aplicada",
+    sub: "Sistemas em escala e soluções para seu negócio — entregando minha experiência de trabalho em big techs como Nubank e Grupo Stone.",
     ctaHowIWork: "Dia a dia →",
     ctaProjects: "Projetos",
     ctaBlog: "Blog",
@@ -171,8 +174,8 @@ export const pt: Dictionary = {
     eyebrow: "Dúvidas, oportunidades ou só bater um papo?",
     title: "Contato",
     sub: LINKEDIN_URL
-      ? "Freelancer em Nova Friburgo (RJ) — fale comigo no LinkedIn ou por e-mail."
-      : "Freelancer em Nova Friburgo (RJ) — fale comigo por e-mail.",
+      ? "Fale comigo no LinkedIn ou por e-mail."
+      : "Fale comigo por e-mail.",
     items: [
       ...(LINKEDIN_URL
         ? [
@@ -192,11 +195,11 @@ export const pt: Dictionary = {
       },
     ],
   },
-  footer: "Izabelle Derrihú · Nova Friburgo, RJ",
+  footer: "Izabelle Derrihú · Freelance & consultoria · Brasil",
   seoFallback: {
     aria: "Sobre Izabelle Derrihú",
     about:
-      "Programadora e engenheira de software freelancer em Nova Friburgo, Rio de Janeiro. Desenvolve backend, sistemas distribuídos, pagamentos e web, com experiência em big techs. Atende projetos em Nova Friburgo e remotos no Brasil.",
+      "Engenharia de software aplicada e consultoria — programadora freelancer em Nova Friburgo, Rio de Janeiro. Desenvolve backend, sistemas distribuídos, pagamentos e web, com experiência em big techs. Atende projetos em Nova Friburgo e remotos no Brasil.",
     howIWorkHeading: "Como eu trabalho",
     workHeading: "Trabalho selecionado",
     writingHeading: "Escrita",

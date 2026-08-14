@@ -3,10 +3,13 @@ import type { Dictionary } from "./types"
 
 export const en: Dictionary = {
   meta: {
-    title: "Freelance Programmer in Nova Friburgo · Izabelle Derrihú",
+    title: "Izabelle Derrihú · Applied Software Engineering",
     description:
-      "Freelance software engineer and programmer based in Nova Friburgo, RJ, Brazil. Backend, distributed systems, payments, and web — experience from big tech (Nubank, Stone). Available for local and remote projects.",
+      "Applied software engineering and consulting — freelance programmer in Nova Friburgo, RJ, Brazil. Backend, distributed systems, payments, and web, with big-tech experience (Nubank, Stone). Local and remote projects.",
     keywords: [
+      "applied software engineering",
+      "software consulting",
+      "software engineering consulting",
       "freelance programmer Nova Friburgo",
       "freelance developer Nova Friburgo",
       "software engineer Nova Friburgo",
@@ -38,8 +41,8 @@ export const en: Dictionary = {
   },
   hero: {
     aria: "Introduction",
-    eyebrow: "Freelance programmer · Nova Friburgo",
-    sub: "Systems at scale and solutions for your business — bringing big-tech experience from Nubank and Stone Group to local projects in Nova Friburgo and remote work.",
+    eyebrow: "Applied software engineer",
+    sub: "Systems at scale and solutions for your business — bringing my experience from big tech companies like Nubank and Stone Group.",
     ctaHowIWork: "Day to day →",
     ctaProjects: "Projects",
     ctaBlog: "Blog",
@@ -168,8 +171,8 @@ export const en: Dictionary = {
     eyebrow: "Questions, opportunities, or just a chat?",
     title: "Contact",
     sub: LINKEDIN_URL
-      ? "Freelancer in Nova Friburgo (RJ) — reach me on LinkedIn or by email."
-      : "Freelancer in Nova Friburgo (RJ) — reach me by email.",
+      ? "Reach me on LinkedIn or by email."
+      : "Reach me by email.",
     items: [
       ...(LINKEDIN_URL
         ? [
@@ -189,11 +192,11 @@ export const en: Dictionary = {
       },
     ],
   },
-  footer: "Izabelle Derrihú · Nova Friburgo, RJ",
+  footer: "Izabelle Derrihú · Freelance & consulting · Brazil",
   seoFallback: {
     aria: "About Izabelle Derrihú",
     about:
-      "Freelance software engineer and programmer based in Nova Friburgo, Rio de Janeiro, Brazil. Builds backend systems, distributed systems, payments, and web products, with big-tech experience. Available for projects in Nova Friburgo and remote work.",
+      "Applied software engineering and consulting — freelance programmer based in Nova Friburgo, Rio de Janeiro, Brazil. Builds backend systems, distributed systems, payments, and web products, with big-tech experience. Available for projects in Nova Friburgo and remote work.",
     howIWorkHeading: "How I work",
     workHeading: "Selected work",
     writingHeading: "Writing",

@@ -35,7 +35,7 @@ const serif = Instrument_Serif({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} · Programadora Freelancer em Nova Friburgo`,
+    default: `${SITE_NAME} · Engenharia de Software Aplicada`,
     template: `%s · ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,

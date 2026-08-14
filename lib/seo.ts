@@ -39,7 +39,7 @@ const GITHUB_URL = env("NEXT_PUBLIC_GITHUB_URL")
 
 /** Fallback EN (metadata root / JSON-LD base). */
 export const SITE_DESCRIPTION =
-  "Freelance software engineer and programmer in Nova Friburgo, RJ — backend, distributed systems, payments, Clojure, Kafka, and AWS. Available for remote and local projects."
+  "Applied software engineering and consulting — freelance programmer in Nova Friburgo, RJ. Backend, distributed systems, payments, Clojure, Kafka, and AWS. Remote and local projects."
 
 const personId = `${SITE_URL}/#person`
 const serviceId = `${SITE_URL}/#freelance-dev`
@@ -114,6 +114,7 @@ export const personJsonLd = {
       },
       serviceType: [
         "Freelance programming",
+        "Software consulting",
         "Software development",
         "Backend development",
         "Web development",
